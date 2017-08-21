@@ -1,5 +1,7 @@
 body {
-	background: repeating-linear-gradient(#6db6e0, #6db6e0 15px, #69b2dc 0, #69b2dc 30px);
+    background-image: -webkit-gradient(linear,0 0,0 100%, color-stop(.5,#6db6e0), color-stop(.5,transparent),to(transparent));
+    -webkit-background-size: 30px;
+    background-color: #69b2dc;
 	margin: 0;
 	padding: 0;
 	font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
