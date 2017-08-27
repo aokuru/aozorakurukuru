@@ -78,12 +78,17 @@ footer{
 
 /* トップページスライドショー */
 .bg-slider__title{
+	width: 100%;
 	color: #fff;
 	font-size: 22px;
 	line-height: 1.2;
 	font-weight: bold;
 	text-align:left;
-}
+	}
+.bg-slider__title > img{
+	width: 300px;
+	height: auto;
+	}
 .bg-slider {
 	width: 100%;
 	height: 350px;
@@ -99,6 +104,24 @@ footer{
 		top: 10px;
 		left: 10px;
 		}
+	.bg-slider__logo {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 90px;
+		}
+	.titlebox{
+		width: 280px;
+		margin: auto;
+		margin-bottom: 20px;
+		font-size: 16px;
+		text-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+		}
+		.titlebox > p{
+			font-size: 46px;
+			text-align: center;
+			margin-bottom: 20px;
+			}
 
 
 
@@ -496,18 +519,34 @@ footer{
 
 
 @media screen and (min-width:421px) {
+#content > li{
+	position: relative;
+	box-sizing: border-box;
+	margin: 20px 20px;
+	padding: 10px;
+	width: 400px;
+	height: 200px;
+	}
+
 /* トップページスライドショー（各ページヘッダー画像） */
 .bg-slider {
 	height: 450px;
 	padding-left: 10px;
 	}
-	.bg-slider > img {
+	.bg-slider__logo {
 		width: 120px;
 		}
-.bg-slider__title > img {
-	width: 85%;
-}
-
+	.titlebox{
+		width: 480px;
+		font-size: 30px;
+		margin-bottom: 40px;
+		}
+		.titlebox > p{
+			font-size: 80px;
+			}
+.bg-slider__title > img{
+	width: 400px;
+	}
 
 /* ■ ■ ■ 過去イベント ■ ■ ■ */
 #history > table{
