@@ -69,6 +69,16 @@ footer{
 			line-height: 1.5;
 			}
 
+#content > li.address{
+	height: 60px;
+	font-size: 14px;
+	}
+	.address img{
+		height: 20px;
+		width: auto;
+		margin-top: 20px;
+		}
+
 #sns{
 	width: 100%;
 	display: flex;
